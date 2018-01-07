@@ -1,0 +1,7 @@
+<h2>{{title}}</h2>
+
+<ul>
+  {{#each truck as |truck|}}
+    <li {{action "showTruck" truck}}>{{truck}}</li>
+  {{/each}}
+</ul>

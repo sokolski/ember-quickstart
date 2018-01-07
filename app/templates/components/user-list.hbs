@@ -1,0 +1,7 @@
+<h2>{{title}}</h2>
+
+<ul>
+  {{#each users as |user|}}
+    <li {{action "showPerson" user}}>{{user}}</li>
+  {{/each}}
+</ul>
